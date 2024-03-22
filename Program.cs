@@ -12,7 +12,7 @@ class Program
     if (resposta == "não" || resposta == "nao" || resposta == "n")
     {
       Console.WriteLine($"correto... mas ... vamos consultar o {person_name}!");
-      Console.Write("consultando o Zeh...");
+      Console.Write($"consultando o {person_name}...");
       ConsoleUtility.WriteProgress(0);
       for (var i = 0; i <= 100; ++i)
       {
